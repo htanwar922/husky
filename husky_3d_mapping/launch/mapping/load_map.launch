@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+	
+	<arg name="map_file" default="map_3d.bt" />
+	<node name="load_map" pkg="octomap_server" type="octomap_server_node" args="$(eval find('husky_3d_mapping') + '/map/' + arg('map_file'))" />
+
+</launch>

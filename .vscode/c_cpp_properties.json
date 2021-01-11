@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/himanshu/Study/ros_ws/devel/include/**",
+        "/home/himanshu/Study/catkin_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_gazebo/hector_gazebo_thermal_camera/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_slam/hector_geotiff/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_slam/hector_map_tools/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_slam/hector_mapping/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_localization/hector_pose_estimation/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_localization/hector_pose_estimation_core/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_quadrotor/hector_quadrotor_actions/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_quadrotor/hector_quadrotor_controller_gazebo/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_quadrotor/hector_quadrotor_gazebo_plugins/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_quadrotor/hector_quadrotor_interface/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_quadrotor/hector_quadrotor_model/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_quadrotor/hector_quadrotor_pose_estimation/include/**",
+        "/home/himanshu/Study/ros_ws/src/hector_quadrotor_tutorial/src/hector_quadrotor/hector_uav_msgs/include/**",
+        "/home/himanshu/Study/catkin_ws/src/husky/husky_base/include/**",
+        "/home/himanshu/Study/catkin_ws/src/mypkg/include/**",
+        "/home/himanshu/Study/ros_ws/src/octomap_ros/include/**",
+        "/home/himanshu/Study/ros_ws/src/octomap_mapping/octomap_server/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

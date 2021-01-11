@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+	<!--<node name="enable_motors" pkg="rosservice" type="rosservice" args="call -wait /enable_motors true" />-->
+	<node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py"
+			launch-prefix="xterm -ls -bg darkred -e " output="screen" args="--test"
+			respawn="true" respawn_delay="5"
+		/>
+	<param name="always_on_top" value="bash -c 'sleep 5; wmctrl -a teleop_twist_keyboard.py -b add,above; echo true'" />
+</launch>
