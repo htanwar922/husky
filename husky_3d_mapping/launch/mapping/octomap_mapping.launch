@@ -20,7 +20,8 @@
 		<param name="sensor_model/max_range" value="5.0" />
 
 		<!-- saved map file to be loaded -->
-		<param name="map_file" value="$(arg map_file)" />
+		<param name="map_file" command="bash -c 'test -f $(arg map_file) &amp;&amp; printf $(arg map_file) || printf &quot;&quot;'" />
+			<!-- value="$(eval 'test -e ' + arg('map_file') and arg('map_file') or &quot;&quot;)" -->
 		
 		<!-- data source to integrate (PointCloud2) -->
 		<remap from="cloud_in" to="/camera/depth/points" />
