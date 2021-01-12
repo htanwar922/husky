@@ -1,5 +1,4 @@
 # Clearpath Husky - 3D Mapping using Kinect sensor
-==================================================
 This repository is using a [previous version](https://github.com/husky/husky/tree/3af80eab1ec0b0d44259c6c8797e4a28797507ca) of the official [husky repository](https://github.com/husky/husky), since the support for Kinect XBox 360 was removed in previous versions.
 
 For Husky instructions and tutorials, please see [Robots/Husky](http://wiki.ros.org/Robots/Husky).
