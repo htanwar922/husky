@@ -2,21 +2,24 @@
 Changelog for package husky_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.7 (2020-08-13)
+0.4.3 (2020-04-20)
 ------------------
-* clearer wording
-* change if to unless
-* added env var and if-statement to disable robot ekf
-* Finish adding the simulated realsense to the topbar, add support for the physical realsense. Tidy up some parameters that were copied in last night but not yet configured.
-* Contributors: Chris I-B, Jose Mastrangelo
+* Update the udev rules to map the controllers to appropriate symlinks instead of relying on device enumeration to save us
+* Remove the device override for the PS4 controller since we pair with bluez now (which maps the device to /dev/input/js0)
+* Fix the filename in the launch fike
+* Make the Logitech controller config file explicit. Add ascii-art controllers to label the axes to make configuration easier
+* Contributors: Chris I-B, Chris Iverach-Brereton
 
-0.3.6 (2020-04-20)
+0.4.2 (2019-12-11)
 ------------------
 
-0.3.5 (2019-12-11)
+0.4.1 (2019-09-30)
 ------------------
 * Added envar for joy device.
-* Contributors: Dave Niewinski, Tony Baltovski
+* Contributors: Tony Baltovski
+
+0.4.0 (2019-08-01)
+------------------
 
 0.3.4 (2019-08-01)
 ------------------

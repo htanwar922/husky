@@ -2,22 +2,25 @@
 Changelog for package husky_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.7 (2020-08-13)
+0.4.3 (2020-04-20)
 ------------------
-* Add support for some environment variables to override realsense defaults
-* Sort the dependencies alphabetically
-* Finish adding the simulated realsense to the topbar, add support for the physical realsense. Tidy up some parameters that were copied in last night but not yet configured.
-* Mark the Kinect for Xbox 360 as deprecated, start adding support for the Intel Realsense D400 series as a replacement
+* Add the other product ID for the PS4 controller to the udev rule
+* Update the udev rules to map the controllers to appropriate symlinks instead of relying on device enumeration to save us
 * Contributors: Chris I-B
 
-0.3.6 (2020-04-20)
-------------------
-
-0.3.5 (2019-12-11)
+0.4.2 (2019-12-11)
 ------------------
 * [husky_bringup] Installed udev rule for Logitech controller.
-* Added Udev rule for Logitech joy.
 * Contributors: Tony Baltovski
+
+0.4.1 (2019-09-30)
+------------------
+* [husky_bringup] Enabled using MagnenticField message for UM6 and UM7 since imu_filter_madgwick now uses it by default.
+* Added Udev rule for Logitech joy. (`#116 <https://github.com/husky/husky/issues/116>`_)
+* Contributors: Tony Baltovski
+
+0.4.0 (2019-08-01)
+------------------
 
 0.3.4 (2019-08-01)
 ------------------

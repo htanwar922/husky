@@ -2,16 +2,16 @@
 Changelog for package husky_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.7 (2020-08-13)
-------------------
-* Finish adding the simulated realsense to the topbar, add support for the physical realsense. Tidy up some parameters that were copied in last night but not yet configured.
-* Mark the Kinect for Xbox 360 as deprecated, start adding support for the Intel Realsense D400 series as a replacement
-* Contributors: Chris I-B
-
-0.3.6 (2020-04-20)
+0.4.3 (2020-04-20)
 ------------------
 
-0.3.5 (2019-12-11)
+0.4.2 (2019-12-11)
+------------------
+
+0.4.1 (2019-09-30)
+------------------
+
+0.4.0 (2019-08-01)
 ------------------
 
 0.3.4 (2019-08-01)
