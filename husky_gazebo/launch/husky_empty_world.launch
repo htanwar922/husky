@@ -27,9 +27,10 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 
   <arg name="world_name" default="worlds/empty.world"/>
 
-  <arg name="laser_enabled" default="true"/>
-  <arg name="kinect_enabled" default="false"/>
+  <arg name="laser_enabled" default="false"/>
+  <arg name="kinect_enabled" default="true"/>
   <arg name="realsense_enabled" default="false"/>
+  <arg name="joystick_enabled" default="false"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(arg world_name)"/> <!-- world_name is wrt GAZEBO_RESOURCE_PATH environment variable -->
@@ -44,6 +45,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <arg name="laser_enabled" value="$(arg laser_enabled)"/>
     <arg name="kinect_enabled" value="$(arg kinect_enabled)"/>
     <arg name="realsense_enabled" value="$(arg realsense_enabled)"/>
+    <arg name="joystick" value="$(arg joystick_enabled)" />
   </include>
 
 </launch>
