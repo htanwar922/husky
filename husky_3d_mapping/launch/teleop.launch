@@ -4,6 +4,6 @@
 	<!--<node name="enable_motors" pkg="rosservice" type="rosservice" args="call -wait /enable_motors true" />-->
 	<node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py"
 			launch-prefix="xterm -ls -bg darkred -e " output="screen" args="--test"
-			respawn="true" respawn_delay="5"
-		/>
+		/>	<!--respawn="true" respawn_delay="5"-->
+		
 </launch>
