@@ -31,3 +31,12 @@ husky_3d_mapping
 ==================
 3d Mapping ROS packages using Kinect sensor and octomap server mapping.
  - husky_3d_mapping : Mapping launch files and dependencies.
+
+husky_speed_controller
+==================
+Implement an automated control for velocity for reaching a desired goal. The goal is marked from RViz or published to /move_base_simple/goal topic.
+ - husky_3d_mapping : Speed controller node.
+
+husky_3d_nav
+==================
+This is an attempted 3D navigation stack solution. (In progress.)
