@@ -40,3 +40,4 @@ Implement an automated control for velocity for reaching a desired goal. The goa
 husky_3d_nav
 ==================
 This is an attempted 3D navigation stack solution. (In progress.)
+ - husky_3d_nav : RRT Planner based on OctoMap mapping and utilizing EKF Localization.
