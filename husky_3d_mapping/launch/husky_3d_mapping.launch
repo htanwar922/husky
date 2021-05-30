@@ -25,4 +25,7 @@
 	<!-- Start teleop with keyboard -->
 	<include file="$(find husky_3d_mapping)/launch/teleop.launch" />
 
+	<!-- Start husky automated control -->
+	<node name="speed_controller" pkg="husky_speed_controller" type="node" output="screen" />
+
 </launch>
